@@ -1,0 +1,79 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.top_menu { display:none; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .main1 { width:100%; }
+.r_3 { line-height: 1.7 }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+form button {float:none; }
+.sm-hiddem{ display:none;}
+.r_3 { padding-top: 0;}
+.r_2 {width:100%;} 
+}
+@media only screen and (max-width : 520px) {
+.item_cont:hover { padding-top: 10%!important; }
+.copyright_footer, .counter_footer
+{
+float:none; text-align:center;
+}
+.main_footer 
+{
+float:none; text-align:center;
+}
+section .delimiter
+{
+display:none;
+}
+section h2, section .s_description { float:none; text-align:center;}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.popup_content {display:none!important; }
+.item_cont:hover { padding-top: 5%!important; }
+.header_company_name
+{
+font-size:22px!important;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.popup_content {display:none!important; }
+.item_cont:hover { padding-top: 0%!important; }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.col-md-hidden { display: none;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.top-menu2 { display:none; }
+}
